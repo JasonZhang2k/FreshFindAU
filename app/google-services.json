@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353280552945",
+    "project_id": "freshfindau",
+    "storage_bucket": "freshfindau.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353280552945:android:8668da935a153a6da45e50",
+        "android_client_info": {
+          "package_name": "comp5216.sydney.edu.au.freshfindau"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUCb1cBB5liRTfuXER-U96MGyCLOvAwzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
