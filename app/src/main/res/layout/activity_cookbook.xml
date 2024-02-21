@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/cookbook_back"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gradient_background"
+        app:navigationIcon="@drawable/arrow_image">
+
+        <TextView
+            android:text="Cookbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cookbook_back"
+        android:layout_above="@+id/divider_view">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvDishName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dish Name"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="by "
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_below="@+id/tvDishName"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/tvMainIngredientsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Main Ingredients"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvAuthor"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/tvMainIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="16sp"
+                android:layout_below="@+id/tvMainIngredientsTitle"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/tvRecipeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recipe"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvMainIngredients"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/tvRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="16sp"
+                android:layout_below="@+id/tvRecipeTitle"
+                android:layout_marginTop="8dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/divider_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b0b0b0"
+        android:layout_above="@+id/bottom_navigation" />
+
+    <include
+        android:id="@+id/bottom_navigation"
+        layout="@layout/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
