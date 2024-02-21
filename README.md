@@ -19,3 +19,4 @@ If the compilation is successful, you can choose the "Run" menu and then select 
 To deploy the application, select the "Build" menu, then choose "Build Bundle(s) / APK(s)" and follow the prompts to generate an APK file.
 The generated APK file can be directly installed on an Android device.
 
+![Login page](https://github.com/JasonZhang2k/FreshFindAU/assets/160447652/4026f006-e2f5-4652-8ec4-608bf377b1b0)
