@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FreshFindAU</string>
+    <string name="gender_prompt">Select your gender</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Non-Binary</item>
+        <item>Prefer Not to Say</item>
+    </string-array>
+
+    <string-array name="cookbook_types">
+        <item>Public</item>
+        <item>Private</item>
+    </string-array>
+</resources>
