@@ -1,3 +1,5 @@
+以下是正常的安装使用流程，但是删除了google-services所以下载后并没有数据，需要进一步信息可以联系我。
+
 1. Preparatory Work
 Make sure that the computer has Android Studio and the Java Development Kit (JDK) installed. 
 Use Android Studio as your development environment, program in Java, and utilize API 29 as the virtual machine version for development.
