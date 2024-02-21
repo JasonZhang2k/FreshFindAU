@@ -1,4 +1,4 @@
-以下是正常的安装使用流程，但是删除了google-services所以并没有谷歌服务，需要使用firebase提供服务。
+以下是正常的安装使用流程，但是删除了google-services所以并没有谷歌服务，需要使用firebase提供服务。然后才可以正常的操作软件否则无法登录。
 
 1. Preparatory Work
 Make sure that the computer has Android Studio and the Java Development Kit (JDK) installed. 
@@ -18,5 +18,3 @@ Choose the "Build" menu, then select "Rebuild Project" to compile the project.
 If the compilation is successful, you can choose the "Run" menu and then select "Run 'app'" to run the project on a simulator or connected device.
 To deploy the application, select the "Build" menu, then choose "Build Bundle(s) / APK(s)" and follow the prompts to generate an APK file.
 The generated APK file can be directly installed on an Android device.
-
-![Login page](https://github.com/JasonZhang2k/FreshFindAU/assets/160447652/4026f006-e2f5-4652-8ec4-608bf377b1b0)
