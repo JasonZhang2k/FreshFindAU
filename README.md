@@ -1,6 +1,4 @@
 以下是正常的安装使用流程，但是删除了google-services所以并没有谷歌服务，并且代码中并未包含数据信息，所以如果想正常使用软件，使用firebase提供服务，线上上传数据信息，然后根据数据修改代码中的数据结构。比如SearchResultActivity这个文件中的
-private void queryAndLaunchDetailActivity(String foodName) {
-        FirebaseFirestore db = FirebaseFirestore.getInstance();
 
         String[] collections = {"fruit", "vegetable", "nut"};
 这里的{"fruit", "vegetable", "nut"}就是预设的食物信息集，以及其他位置一些关于里面具体信息的调用的名字都需要根据你要使用的数据名进行一定的修改。
